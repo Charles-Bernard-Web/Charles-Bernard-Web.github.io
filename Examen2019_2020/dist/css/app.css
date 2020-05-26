@@ -1,0 +1,167 @@
+body { background: url("../images/bg1.jpg") repeat; }
+
+body a { text-decoration: none; }
+
+body a h2 { color: #b05a5a; text-align: center; margin-top: 2rem; font-family: 'Market Deco'; }
+
+body h3 { color: #b05a5a; text-align: justify; font-family: 'Market Deco'; }
+
+body h4 { color: #b05a5a; text-align: justify; margin: 0; font-size: 1rem; font-family: 'Market Deco'; }
+
+body p { font-family: 'MerriweatherRegular', serif; color: #6b6b6b; }
+
+body hr { border: none; border-top: 1px dashed #a0a0a0; margin: 0 5% 0 5%; }
+
+.googleMap { width: 100%; height: 75vh; }
+
+.headerMedium a { text-decoration: none; }
+
+.headerMedium a h1 { margin-left: 5%; font-family: 'Kaushan Script', cursive; color: grey; font-size: 2em; }
+
+.headerMedium .divHeaderMedium { text-align: end; margin-top: 2.5rem; margin-right: 5%; }
+
+.headerMedium .divHeaderMedium input { padding-top: 3px; padding-bottom: 1.5px; }
+
+.headerMedium .divHeaderMedium .iconeSearch { color: white; background: black; margin-left: -1em; padding: 0; margin-top: -0.5em; margin-bottom: 2px; }
+
+.headerMedium p { text-align: center; margin: 2rem; }
+
+.headerSmall h1 { text-align: center; margin: 1em; }
+
+.headerSmall .divHeaderMedium { text-align: center; margin: 1em; }
+
+.headerSmall .divHeaderMedium .inputHeader { margin-bottom: 2rem; width: 30%; }
+
+.headerSmall .divHeaderMedium .inputHeader.iconeSearch { margin-bottom: -1em; }
+
+.headerSmall .monselect { text-align: center; width: 100%; }
+
+.headerSmall .monselect .select-page { width: 50%; }
+
+.inputHeader { vertical-align: super; width: 5rem; }
+
+#ulPrincipal { display: flex; justify-content: center; padding: 0; }
+
+#ulPrincipal li { list-style: none; }
+
+#ulPrincipal li a { text-decoration: none; color: white; margin-right: 1rem; }
+
+#ulPrincipal li a:hover { color: grey; }
+
+.wayPage ul { display: flex; justify-content: center; padding: 0; margin: 2rem 0; }
+
+.wayPage ul li { list-style: none; }
+
+.wayPage ul li a { text-decoration: none; color: #b05a5a; margin-right: 16px; margin-left: 16px; }
+
+.wayPage ul li:last-of-type a { color: grey; margin: 0 1rem; }
+
+.wayPage ul p { margin: initial; }
+
+.icons { font-size: 1em; vertical-align: bottom; }
+
+article ul { display: flex; justify-content: center; color: #6b6b6b; font-size: 0.8em; align-items: center; }
+
+article ul li { border-right: 1px solid grey; display: flex; line-height: 1em; padding-right: 10px; }
+
+article ul li:last-child { border-right: none; }
+
+article ul li time { margin-left: 10px; }
+
+article ul li p { margin: 0; }
+
+article h2 { color: #b05a5a; text-align: center; margin-top: 2rem; font-family: 'Market Deco'; }
+
+p { text-align: justify; padding: 0 1.5rem; }
+
+.material-icons { vertical-align: middle; padding-right: 10px; }
+
+.times { padding: 0 1em 0 0; }
+
+.illustration { width: 100%; position: relative; margin-top: 1rem; margin-bottom: 1rem; }
+
+iframe { border: 0; }
+
+.playList { width: 100%; }
+
+.boutonsIndex { text-align: center; margin-bottom: 2em; }
+
+.boutonsIndex button { margin: 2rem 0 2rem 0; color: white; background: linear-gradient(#b6b6b6, #909090); border: 1px solid #191919; border-radius: 10%; text-align: center; text-decoration: none; font-size: 11px; width: 2em; height: 2em; }
+
+.boutonsIndex button:hover { background: linear-gradient(#191919, black); }
+
+.sectionRelatedPosts { padding: 5%; }
+
+.sectionRelatedPosts ul { display: flex; padding: 0; color: #6b6b6b; font-size: 0.8em; align-items: center; }
+
+.sectionRelatedPosts ul li { border-right: 1px solid grey; display: flex; line-height: 1em; }
+
+.sectionRelatedPosts ul li:last-child { border-right: none; }
+
+.sectionRelatedPosts ul li time { margin-left: 10px; }
+
+.sectionRelatedPosts ul li p { margin: 0; padding: 0 1em; }
+
+.sectionRelatedPosts iframe { height: 35vh; }
+
+.sectionRelatedPosts p { text-align: justify; padding: 0 1.5rem; }
+
+#tagsPosts { justify-content: end; padding-left: 24px; }
+
+#tagsPosts li { border: none; padding: 0; }
+
+#tagsPosts li a { text-decoration: none; color: grey; }
+
+.boutonsPosts { text-align: center; }
+
+.boutonsPosts button { width: auto; padding: 0.5rem; margin: 2rem 2rem 2rem 0; color: white; background: linear-gradient(#b6b6b6, #909090); border: 1px solid #191919; border-radius: 10%; text-align: center; text-decoration: none; }
+
+.boutonsPosts button:hover { background: linear-gradient(#191919, black); }
+
+.articleAbout h2 { color: #b05a5a; text-align: center; margin-top: 2rem; font-family: 'Market Deco'; }
+
+.articleAbout p { text-align: left; width: 100%; margin: 0; padding: 0; }
+
+.articleAbout figure { margin: 0; }
+
+.articleAbout figure img { width: 100%; padding: 0 10% 5% 10%; }
+
+.imagesContact { width: 100%; }
+
+.sectionContact h2 { color: #b05a5a; text-align: center; margin-top: 2rem; font-family: 'Market Deco'; }
+
+.sectionContact h3 { margin-left: 1em; }
+
+.sectionContact ul { padding: 1em; }
+
+.sectionContact li { list-style: none; margin-bottom: 1em; }
+
+.sectionContact input { width: 50%; }
+
+.sectionContact p { text-align: justify; padding: 0 1rem 0 1rem; }
+
+.sectionContact form { background: #b6b6b6; margin: 1rem; }
+
+#submit { width: auto; background: linear-gradient(#343a40, #121416); color: white; border-radius: 20%; }
+
+#commentaire { width: 75%; height: 20vh; }
+
+.conteneurFooter { width: 100%; margin: auto; padding: 1em 1em 0 1em; color: #6b6b6b; background: #131313; }
+
+.conteneurFooter a { color: #6b6b6b; text-decoration: none; }
+
+.TagsFooter ul { display: flex; float: left; }
+
+.TagsFooter ul li { list-style: none; }
+
+.divCopy { background: black; color: #6b6b6b; text-align: center; width: calc(100% + 2em); line-height: 50px; margin: 0; left: calc(-1em); position: relative; }
+
+.TagsListe { margin: 0; padding: 0; }
+
+.inputFooter { background: black; border: 0; padding: 0.5em; }
+
+.taillePoliceS { font-size: 15px; }
+
+.taillePoliceM { font-size: 20px; }
+
+.taillePoliceL { font-size: 30px; }

@@ -1,0 +1,86 @@
+/*Variables*/
+
+// Polices
+
+$familyPrimary : "Playfair Display Regular";
+$familySecondary: "Lato regular";
+
+//taille Polices
+
+$policeS: 5px;
+$policeM: 10px;
+$policeL: 20px;
+
+// COULEURS
+  $couleur1: #057bff;
+  $couleur2: #343a40;
+  $couleur3: #8f9396;
+  $couleurNeutre: #999;
+
+// MODULE DES BOITES
+  $boiteFixeDimension: 1280px;
+
+// grilles
+
+$grilleNombreColonnes: 12;
+$grilleGouttiere: 1rem;
+$boiteLargeur: 650px;
+
+// Responsiv
+
+
+$grilleBreakPoints : ('xs': '0',
+                    's' : '568px',
+                    'm' : '768px',
+                    'l': '1024px',
+                    'xl': '1280px',
+                    'xxl':'1910px');
+// Menu
+
+$menuHorizLiensAlignement: space-between;
+$menuHorizLiensGrow: 1;
+$menuHorizLiensMarge: 5px;
+$menuHorizLiensTexteAlignement: center;
+
+$menuHorizLiensFondCouleur: $couleur2;
+$menuHorizLiensPadding: 1.5rem;
+$menuHorizLiensTextCouleur: $couleur3;
+
+$menuHorizLiensHoverFondCouleur: darken($couleur2, 5%);
+$menuHorizLiensHoverTexteCouleur: #fff;
+
+$menuHorizLiensActifFondCouleur: none;
+$menuHorizLiensActifTextCouleur: #fff;
+
+$menuDropDownLiensFondCouleur: lighten($couleur2, 20%);
+$menuDropDownLiensTextCouleur: #fff;
+$menuDropDownLiensPadding: 0.5rem;
+
+$menuDropDownLiensHoverFondCouleur: darken($couleur2, 5%);
+$menuDropDownLiensHoverTexteCouleur: #fff;
+
+// Menu slider
+
+// boutons
+$menuSliderBtnTop: 0.5em;
+$menuSliderBtnRight: 1rem;
+$menuSliderBtnFondCouleur: $couleur2;
+$menuSliderBtnTextCouleur: $couleur3;
+$menuSliderBtnPadding: 1.5rem;
+
+$menuSliderBtnHoverFondCouleur: none;
+$menuSliderBtnHoverTextCouleur: #fff;
+
+// Menu
+
+$menuSliderMenuLargeur: 100%;
+$menuSliderMenuHauteur: 100vh;
+$menuSliderFondCouleur: none;
+
+// Les liens
+
+$menuSliderLiensFondCouleur: $couleur2;
+$menuSliderLiensTextCouleur: $couleur3;
+$menuSliderLiensPadding: 1rem;
+$menuSliderLiensHoverFondCouleur: $couleur2;
+$menuSliderLiensHoverTextCouleur: #fff;

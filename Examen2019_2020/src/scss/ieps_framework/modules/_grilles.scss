@@ -1,0 +1,27 @@
+// LE CONTENEUR --------------------------
+ .grille {
+   display: grid;
+   grid-template-columns: repeat($grilleNombreColonnes, 1fr);
+   &.grille-gouttiere {
+     grid-gap: $grilleGouttiere;
+   }
+ }
+
+// TOUS LES ITEMS A $grilleNombreColonnes COLONNES PAR DEFAUT
+ .grille > * {
+   grid-column: span $grilleNombreColonnes;
+ }
+
+
+@each $etiquette, $dimension in $grilleBreakPoints {
+  @media screen and (min-width: #{$dimension}){
+   @for $i from 1 through $grilleNombreColonnes {
+     .#{$etiquette}#{$i} {
+       grid-column: span $i;
+     }
+     .r#{$i} {
+       grid-row: span $i;
+     }
+   }
+  }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meridian Sun Examen 2019 - 2020 IEPS Fléron</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="css/ieps_framework/index.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+  <body>
+    <main class="boite-fixe">
+
+      <!-- HEADERS -->
+
+      <!-- Header Medium -->
+
+     <header class="headerMedium">
+       <section class="grille">
+         <div class="m-visible m6">
+           <a href="index.html"><h1>The Meridian Sun</h1></a>
+         </div>
+         <div class="divHeaderMedium m-visible m6">
+             <img src="images/icon-rss.png" alt="rss">
+             <img src="images/icon-facebook.png" alt="facebook">
+             <img src="images/icon-twitter.png" alt="twitter">
+             <img src="images/icon-dribbble.png" alt="dribbble">
+             <img src="images/icon-linkedin.png" alt="linkedin">
+             <img src="images/icon-pinterest.png" alt="pinterest">
+             <input class="inputHeader" type="text" name="search" placeholder="Search">
+             <i class="iconeSearch material-icons">search</i>
+         </div>
+       </section>
+
+       <!-- Header Small -->
+
+       <section class="headerSmall m-cache xs12">
+         <div>
+           <a href="index.html"><h1>The Meridian Sun</h1></a>
+         </div>
+         <div class="divHeaderMedium m-cache xs12">
+           <div>
+             <input class="inputHeader" type="text" name="search" placeholder="Search">
+             <i class="iconeSearch material-icons">search</i>
+           </div>
+             <img src="images/icon-rss.png" alt="rss">
+             <img src="images/icon-facebook.png" alt="facebook">
+             <img src="images/icon-twitter.png" alt="twitter">
+             <img src="images/icon-dribbble.png" alt="dribbble">
+             <img src="images/icon-linkedin.png" alt="linkedin">
+             <img src="images/icon-pinterest.png" alt="pinterest">
+         </div>
+         <div  class="monselect">
+           <select name="select-page" onchange="location = this.value;">
+             <option value="#">--- Select Your Page ---</option>
+             <option value="index.html" selected>Blog</option>
+             <option value="about.html">About</option>
+             <option value="contact.html">Contact</option>
+           </select>
+         </div>
+       </section>
+
+       <nav>
+         <div class="m-visible bandeau">
+           <ul id="ulPrincipal">
+             <li><a href="index.html">Blog</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+           </ul>
+         </div>
+       </nav>
+
+       <div class="wayPage">
+         <ul>
+           <li><a href="index.html">Home</a>/</li>
+             <li><a href="#">Photography</a>/</li>
+           <li><a href="contact.html">A Wonderful Complexity</a></li>
+         </ul>
+       </div>
+       <hr>
+     </header>
+
+  <!-- ARTICLES -->
+
+      <article>
+        <h2> A Wonderful Complexity </h2>
+        <ul>
+          <li><i class="icons material-icons-outlined">panorama</i></li>
+          <li><time datetime="2020-05-21" class="material_icon">May 21, 2020</time></li>
+          <li><p>Photography</p></li>
+          <li><p>4 Comments</p></li>
+        </ul>
+        <img class="illustration" src="images/post1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim fugiat recusandae sint quidem soluta et culpa totam libero expedita quasi!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, reprehenderit accusamus maiores. Earum recusandae expedita, tempora distinctio beatae provident odio?</p>
+
+        <ul id="tagsPosts">
+          <li><a href="#">#photo</a>,</li>
+          <li><a href="#">#professional</a></li>
+        </ul>
+
+      </article>
+    <hr>
+     <div class="boutonsPosts">
+      <button type="button" name="button">Prev Post</button>
+      <button type="button" name="button">Next Post</button>
+     </div>
+    <hr>
+
+  <!-- SECTION POSTS -->
+
+    <section class="sectionPosts grille">
+      <h3>Related Posts</h3>
+      <div class=" sectionRelatedPosts xs4">
+        <img class="illustration" src="images/post1.jpg" alt="">
+        <h4>A Wonderful complexity</h4>
+        <ul>
+          <li><p>Photo</p></li>
+          <li><time datetime="2020-05-21" class="times">May 21, 2020</time></li>
+          <li><p>4 Comments</p></li>
+        </ul>
+      </div>
+      <div class="sectionRelatedPosts xs4">
+        <iframe class="illustration" src="https://www.youtube.com/embed/Ks-5NdifH5I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Led by a dressed monkey</h4>
+        <ul>
+          <li><i class="icons material-icons">audiotrack</i></li>
+          <li><time class="times" datetime="2020-05-18">May 18, 2020</time></li>
+          <li><p>No Comments</p></li>
+        </ul>
+      </div>
+      <div class="sectionRelatedPosts xs4">
+        <img class="illustration" src="images/post2.jpg" alt="">
+        <h4>A day in the life</h4>
+        <ul>
+          <li><i class="icons material-icons-outlined">panorama</i></li>
+          <li><time class="times" datetime="2020-05-18">May 18, 2020</time></li>
+          <li><p>No Comments</p></li>
+        </ul>
+      </div>
+    </section>
+    <hr>
+
+    <!-- FOOTER -->
+
+    <footer class="conteneurFooter">
+      <section class="grille">
+      <div class="m3 r2">
+        <h3>Search</h3>
+        <input type="text" name="search" placeholder="Search" class="inputFooter">
+        <div class="m3">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li><a href=""></a>A Wonderful complexity</li>
+            <li><a href=""></a>The Meridian Sun</li>
+            <li><a href=""></a>Gallery Format</li>
+            <li><a href=""></a>John Doe</li>
+            <li><a href=""></a>A Day In The Life</li>
+          </ul>
+        </div>
+      </div>
+      <div class="m3 r2">
+         <h3>Twitter</h3>
+          <hr>
+           <p>→ Follow @iepsdesign</p>
+       </div>
+       <div class="TagsFooter m3">
+         <h3>Tags</h3>
+         <ul class="TagsListe">
+           <li>
+             <a href="#" class="taillePoliceS">blogtroll</a>
+             <a href="#" class="taillePoliceL">Daily</a>
+             <a href="#" class="taillePoliceS">dialog</a>
+             <a href="#" class="taillePoliceS">Gallery</a>
+             <a href="#" class="taillePoliceS">journal</a>
+             <a href="#" class="taillePoliceS">link</a>
+             <a href="#" class="taillePoliceS">motion</a>
+             <a href="#" class="taillePoliceS">music</a>
+             <a href="#" class="taillePoliceL">photo</a>
+             <a href="#" class="taillePoliceM">professional</a>
+             <a href="#" class="taillePoliceS">quotation</a>
+             <a href="#" class="taillePoliceS">show</a>
+             <a href="#" class="taillePoliceS">sound</a>
+             <a href="#" class="taillePoliceS">tv</a>
+             <a href="#" class="taillePoliceS">video</a>
+           </li>
+
+         </ul>
+       </div>
+       <div class="m3 r2">
+         <h3>About</h3>
+         <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p>
+         <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+       </div>
+      <div class="m3">
+         <h3>Archives</h3>
+          <ul>
+          <li><a href="">May 2020</a></li>
+          <li><a href="">April 2020</a></li>
+        </ul>
+      </div>
+    </section>
+    <div class="divCopy">
+       Copyright 2020 - The Meridian Sun
+    </div>
+   </footer>
+  </main>
+ </body>
+</html>

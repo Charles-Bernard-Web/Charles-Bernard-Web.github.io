@@ -1,0 +1,35 @@
+.bandeau {
+  background: #b05a5a ;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  width: calc(100% + 1em + 10px);
+  position: relative;
+  left: calc(-0.5em - 5px);
+}
+
+.bandeau:before {
+  content:'';
+  display: block;
+  background: red;
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  left: 0;
+  bottom : -10px;
+  transform: skewY(45deg);
+  z-index: -1;
+}
+
+.bandeau:after {
+  content:'';
+  display: block;
+  background: red;
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  right: 0;
+  bottom : -10px;
+  transform: skewY(-45deg);
+  z-index: -1;
+}
